@@ -1,68 +1,78 @@
-<h1 align="center">Hi 👋, I'm Osama Shaikh</h1>
-<h3 align="center">A passionate Full Stack Web Developer from Mumbai, India</h3>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=usamashaikh13&label=Profile%20views&color=0e75b6&style=flat" alt="usamashaikh13" /> </p>
-
-- 🔭 I’m currently working on [XploRE](https://github.com/usamashaikh13/xplore)  
-- 🌱 I’m currently learning **Next.js 14, Server Actions, and Advanced DSA**  
-- 👯 I’m looking to collaborate on **Full Stack projects**  
-- 📝 I regularly write articles on [LinkedIn](https://www.linkedin.com/in/osama-shaikh-103b941a6/)  
-- 📫 How to reach me **shaikhusama745@gmail.com**  
-- ⚡ Fun fact: I solve LeetCode problems daily!  
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=F7931A&background=FFFFFF00&center=true&vCenter=true&width=435&lines=Hi+there+%F0%9F%91%8B%2C+I'm+Usama+Shaikh!;Welcome+to+my+GitHub+Profile;Full+Stack+Developer+%7C+Open+Source+Contributor;Building+scalable+and+efficient+apps!+%F0%9F%92%BB" alt="Typing SVG" />
+</div>
 
 ---
 
-### 🔗 Connect with me:
-<p align="left">
-<a href="https://www.linkedin.com/in/osama-shaikh-103b941a6/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="osama-shaikh" height="30" width="40" /></a>
-<a href="https://leetcode.com/u/shaikhusama745/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/leetcode.svg" alt="shaikhusama745" height="30" width="40" /></a>
-<a href="https://github.com/usamashaikh13" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="github" height="30" width="40" /></a>
-</p>
+<h3 align="center">🚀 About Me</h3>
+
+- 🔭 **Currently working on:** [XploRE](https://github.com/usamashaikh13/xplore), an advanced exploration platform.  
+- 🌱 **Learning:** Mastering **Next.js 14**, **AI/ML-powered web apps**, and **System Design**.  
+- 💬 **Ask me about:** Full Stack Development, Design Patterns, and Problem Solving.  
+- 📫 **How to reach me:** [shaikhusama745@gmail.com](mailto:shaikhusama745@gmail.com).  
+- ⚡ **Fun fact:** I drink coffee ☕ while debugging my way to greatness.  
 
 ---
 
-### 🛠️ Languages and Tools:
-<p align="left"> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
-  </a> 
-  <a href="https://reactjs.org/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> 
-  </a> 
-  <a href="https://nodejs.org" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> 
-  </a> 
-  <a href="https://expressjs.com/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/>
-  </a> 
-  <a href="https://www.mongodb.com/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> 
-  </a> 
-  <a href="https://angular.io" target="_blank"> 
-    <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> 
-  </a>
-  <a href="https://www.oracle.com/database/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> 
-  </a>
-  <a href="https://getbootstrap.com" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.typescriptlang.org/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> 
-  </a> 
-</p>
-
----
-
-### 📊 GitHub Stats:
+<h3 align="center">🛠️ Tech Stack</h3>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=usamashaikh13&show_icons=true&theme=radical" alt="usamashaikh13" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=usamashaikh13&theme=radical" alt="usamashaikh13" />
+  <img src="https://skillicons.dev/icons?i=javascript,typescript,react,nextjs,nodejs,express,mongodb,postgres,python,java,angular,html,css,bootstrap,tailwind,docker,kubernetes,aws" alt="Tech Stack" />
 </p>
 
 ---
 
-### 🏆 LeetCode Stats:
+<h3 align="center">📈 GitHub Stats</h3>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=usamashaikh13&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=usamashaikh13&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=usamashaikh13&layout=compact&theme=tokyonight" alt="Top Languages" />
+</div>
+
+---
+
+<h3 align="center">📚 Open Source Contributions</h3>
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/shaikhusama745?theme=dark&ext=heatmap" alt="LeetCode Stats">
+  <a href="https://github.com/vercel/next.js" target="_blank"><img src="https://img.shields.io/badge/Next.js-Contributor-blue?style=for-the-badge&logo=next.js" /></a>
+  <a href="https://github.com/facebook/react" target="_blank"><img src="https://img.shields.io/badge/React-Contributor-blue?style=for-the-badge&logo=react" /></a>
+</p>
+
+---
+
+<h3 align="center">✨ Notable Projects</h3>
+<div align="center">
+  <a href="https://github.com/usamashaikh13/xplore">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=usamashaikh13&repo=xplore&theme=tokyonight" alt="XploRE" />
+  </a>
+  <a href="https://github.com/usamashaikh13/superchat">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=usamashaikh13&repo=superchat&theme=tokyonight" alt="SuperChat" />
+  </a>
+</div>
+
+---
+
+<h3 align="center">🌐 Connect with Me</h3>
+<p align="center">
+  <a href="https://www.linkedin.com/in/osama-shaikh-103b941a6/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+  </a>
+  <a href="https://leetcode.com/shaikhusama745/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-Practice-yellow?style=for-the-badge&logo=leetcode" alt="LeetCode" />
+  </a>
+  <a href="https://github.com/usamashaikh13" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Follow-lightgrey?style=for-the-badge&logo=github" alt="GitHub" />
+  </a>
+</p>
+
+---
+
+<h3 align="center">🏆 Developer Highlights</h3>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=usamashaikh13&theme=onedark&no-frame=true&row=1&column=6" alt="GitHub Trophy" />
+</p>
+
+---
+
+<h3 align="center">🔥 Coding Activity</h3>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=usamashaikh13&theme=tokyo-night" alt="GitHub Activity Graph" />
 </p>
