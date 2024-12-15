@@ -7,7 +7,7 @@
 <h3 align="center">🚀 About Me</h3>
 
 - 🔭 **Currently working on:** [XploRE](https://github.com/usamashaikh13/xplore), an advanced exploration platform.  
-- 🌱 **Learning:** Mastering **Next.js 14**, **AI/ML-powered web apps**, and **System Design**.  
+- 🌱 **Learning:** Mastering **React/Angular**, **Java**, **Spring Boot**and **System Design**.  
 - 💬 **Ask me about:** Full Stack Development, Design Patterns, and Problem Solving.  
 - 📫 **How to reach me:** [shaikhusama745@gmail.com](mailto:shaikhusama745@gmail.com).  
 - ⚡ **Fun fact:** I drink coffee ☕ while debugging my way to greatness.  
