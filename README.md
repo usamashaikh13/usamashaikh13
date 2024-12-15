@@ -6,8 +6,8 @@
 
 <h3 align="center">🚀 About Me</h3>
 
-- 🔭 **Currently working on:** [XploRE](https://github.com/usamashaikh13/xplore), an advanced exploration platform.  
-- 🌱 **Learning:** Mastering **React/Angular**, **Java**,*Hibernate** **Spring Boot** and **System Design**.  
+- 🔭 **Currently working on:** [XploRE](https://github.com/usamashaikh13/Xplore_Frontend), an end-to-end fully automated interview scheduling platform.  
+- 🌱 **Learning:** Mastering **React/Angular**, **Java**,**Hibernate** **Spring Boot** and **System Design**.  
 - 💬 **Ask me about:** Full Stack Development, Design Patterns, and Problem Solving.  
 - 📫 **How to reach me:** [shaikhusama745@gmail.com](mailto:shaikhusama745@gmail.com).  
 - ⚡ **Fun fact:** I drink coffee ☕ while debugging my way to greatness.  
