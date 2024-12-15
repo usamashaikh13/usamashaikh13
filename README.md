@@ -41,7 +41,7 @@
 <h3 align="center">✨ Notable Projects</h3>
 <div align="center">
   <a href="https://github.com/usamashaikh13/xplore">
-    <img src="[https://github-readme-stats.vercel.app/api/pin/?username=usamashaikh13&repo=xplore&theme=tokyonight](https://github.com/usamashaikh13/Xplore_Frontend)" alt="XploRE" />
+    <img src="https://github.com/usamashaikh13/Xplore_Frontend" alt="XploRE" />
   </a>
   <a href="https://github.com/usamashaikh13/superchat">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=usamashaikh13&repo=superchat&theme=tokyonight" alt="SuperChat" />
