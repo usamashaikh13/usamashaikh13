@@ -1,141 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Osama Shaikh - GitHub Profile</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        .container {
-            max-width: 900px;
-            margin: 30px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            color: #2c3e50;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .typing-container {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        canvas {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="typing-container">
-            <h1>
-                <span id="typed"></span>
-            </h1>
-        </div>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=F7931A&background=FFFFFF00&center=true&vCenter=true&width=435&lines=Hi+there+%F0%9F%91%8B%2C+I'm+Usama+Shaikh!;Welcome+to+my+GitHub+Profile;Full+Stack+Developer+%7C+Open+Source+Contributor;Building+scalable+and+efficient+apps!+%F0%9F%92%BB" alt="Typing SVG" />
+</div>
 
-        <div class="section">
-            <h2>🚀 About Me</h2>
-            <ul>
-                <li><strong>Education:</strong> Bachelor of Engineering in Computer Engineering, Thakur College of Engineering Technology (CGPA: 9.87)</li>
-                <li><strong>Location:</strong> Mumbai, India</li>
-                <li><strong>Current Role:</strong> Consultant - Package Implementation at LTIMindtree Limited</li>
-                <li><strong>Achievements:</strong> Winner of JPMorgan Code for Good Hackathon 2022</li>
-            </ul>
-        </div>
+---
 
-        <div class="section">
-            <h2>🛠️ Skills</h2>
-            <canvas id="skillsChart"></canvas>
-        </div>
+<h3 align="center">🚀 About Me</h3>
 
-        <div class="section">
-            <h2>🌟 Projects & Experience</h2>
-            <ul>
-                <li><strong>XploRE:</strong> Automated interview management tool improving recruitment efficiency by 40%.</li>
-                <li><strong>ICICI Disbursement Hub:</strong> Streamlined loan processing, reducing manual interventions by 30%.</li>
-                <li><strong>Angular Enquiry UI:</strong> Enhanced task tracking efficiency by 40% with modernized UI components.</li>
-            </ul>
-        </div>
+- 🔭 **Currently working on:** [XploRE](https://github.com/usamashaikh13/xplore), an advanced exploration platform.  
+- 🌱 **Learning:** Mastering **React/Angular**, **Java**,*Hibernate** **Spring Boot** and **System Design**.  
+- 💬 **Ask me about:** Full Stack Development, Design Patterns, and Problem Solving.  
+- 📫 **How to reach me:** [shaikhusama745@gmail.com](mailto:shaikhusama745@gmail.com).  
+- ⚡ **Fun fact:** I drink coffee ☕ while debugging my way to greatness.  
 
-        <div class="section">
-            <h2>🏅 Achievements</h2>
-            <ul>
-                <li>Secured <strong>1st position</strong> in Academics (Thakur College of Engineering)</li>
-                <li><strong>Runner-up</strong> at JPMorgan Code for Good Hackathon 2022</li>
-                <li>Published and presented papers at <strong>MULTICON-W 2022</strong></li>
-            </ul>
-        </div>
+---
 
-        <div class="section">
-            <h2>🔗 Let's Connect</h2>
-            <ul>
-                <li><strong>GitHub:</strong> <a href="https://github.com/usamashaikh13">usamashaikh13</a></li>
-                <li><strong>LeetCode:</strong> <a href="https://leetcode.com/u/shaikhusama745/">shaikhusama745</a></li>
-                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/osama-shaikh-103b941a6/">Osama Shaikh</a></li>
-            </ul>
-        </div>
-    </div>
+<h3 align="center">🛠️ Tech Stack</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=javascript,typescript,react,nextjs,nodejs,express,mongodb,postgres,python,java,angular,html,css,bootstrap,tailwind,docker,kubernetes,aws" alt="Tech Stack" />
+</p>
 
-    <script>
-        // Typing animation
-        new Typed('#typed', {
-            strings: [
-                "Hi there 👋, I'm Usama Shaikh!",
-                "Welcome to my GitHub Profile!",
-                "Full Stack Developer | Open Source Contributor",
-                "Building scalable and efficient apps! 💻"
-            ],
-            typeSpeed: 50,
-            backSpeed: 25,
-            loop: true
-        });
+---
 
-        // Skills chart
-        const ctx = document.getElementById('skillsChart').getContext('2d');
-        new Chart(ctx, {
-            type: 'radar',
-            data: {
-                labels: ['JavaScript', 'TypeScript', 'React', 'Angular', 'Node.js', 'Spring Boot', 'MongoDB'],
-                datasets: [{
-                    label: 'Proficiency',
-                    data: [90, 85, 80, 85, 75, 70, 80],
-                    backgroundColor: 'rgba(52, 152, 219, 0.2)',
-                    borderColor: 'rgba(52, 152, 219, 1)',
-                    borderWidth: 2,
-                }]
-            },
-            options: {
-                scale: {
-                    ticks: {
-                        beginAtZero: true
-                    }
-                }
-            }
-        });
-    </script>
-</body>
-</html>
+<h3 align="center">📈 GitHub Stats</h3>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=usamashaikh13&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=usamashaikh13&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=usamashaikh13&layout=compact&theme=tokyonight" alt="Top Languages" />
+</div>
+
+---
+
+<h3 align="center">📚 Open Source Contributions</h3>
+<p align="center">
+  <a href="https://github.com/vercel/next.js" target="_blank"><img src="https://img.shields.io/badge/Next.js-Contributor-blue?style=for-the-badge&logo=next.js" /></a>
+  <a href="https://github.com/facebook/react" target="_blank"><img src="https://img.shields.io/badge/React-Contributor-blue?style=for-the-badge&logo=react" /></a>
+</p>
+
+---
+
+<h3 align="center">✨ Notable Projects</h3>
+<div align="center">
+  <a href="https://github.com/usamashaikh13/xplore">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=usamashaikh13&repo=xplore&theme=tokyonight" alt="XploRE" />
+  </a>
+  <a href="https://github.com/usamashaikh13/superchat">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=usamashaikh13&repo=superchat&theme=tokyonight" alt="SuperChat" />
+  </a>
+</div>
+
+---
+
+<h3 align="center">🌐 Connect with Me</h3>
+<p align="center">
+  <a href="https://www.linkedin.com/in/osama-shaikh-103b941a6/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+  </a>
+  <a href="https://leetcode.com/shaikhusama745/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-Practice-yellow?style=for-the-badge&logo=leetcode" alt="LeetCode" />
+  </a>
+  <a href="https://github.com/usamashaikh13" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Follow-lightgrey?style=for-the-badge&logo=github" alt="GitHub" />
+  </a>
+</p>
+
+---
+
+<h3 align="center">🏆 Developer Highlights</h3>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=usamashaikh13&theme=onedark&no-frame=true&row=1&column=6" alt="GitHub Trophy" />
+</p>
+
+---
+
+<h3 align="center">🔥 Coding Activity</h3>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=usamashaikh13&theme=tokyo-night" alt="GitHub Activity Graph" />
+</p>
