@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Osama Shaikh - GitHub Profile</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,7 +16,7 @@
             color: #333;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 30px auto;
             padding: 20px;
             background: #fff;
@@ -37,12 +39,23 @@
         .section {
             margin-bottom: 20px;
         }
+        .typing-container {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        canvas {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Hi, I'm Osama Shaikh! 👋</h1>
-        <p>Welcome to my GitHub profile! I am a <strong>Full Stack Web Developer</strong> passionate about building innovative and efficient software solutions. I bring a mix of creativity, problem-solving, and technical expertise to every project I undertake.</p>
+        <div class="typing-container">
+            <h1>
+                <span id="typed"></span>
+            </h1>
+        </div>
 
         <div class="section">
             <h2>🚀 About Me</h2>
@@ -56,36 +69,15 @@
 
         <div class="section">
             <h2>🛠️ Skills</h2>
-            <h3>Languages & Frameworks</h3>
-            <ul>
-                <li>Frontend: Angular, React, HTML, CSS, JavaScript, TypeScript, React Native</li>
-                <li>Backend: Java Spring Boot, Node.js, JSP/J2EE, Hibernate</li>
-                <li>Database: Oracle SQL, MongoDB</li>
-            </ul>
-            <h3>Tools & Platforms</h3>
-            <ul>
-                <li>Git, Spring MVC, Express.js, RxJS, Bootstrap, Angular Material</li>
-            </ul>
+            <canvas id="skillsChart"></canvas>
         </div>
 
         <div class="section">
             <h2>🌟 Projects & Experience</h2>
-            <h3>Consultant - Package Implementation | LTIMindtree Limited</h3>
             <ul>
-                <li>Developed <strong>XploRE</strong>, an automated interview management tool using React.js, Node.js, and MongoDB.</li>
-                <li>Enhanced recruitment efficiency by 40% with features like monthly scheduling and interviewer profiles.</li>
-            </ul>
-
-            <h3>Software Engineer | Servosys Solutions</h3>
-            <ul>
-                <li>Engineered a Disbursement Hub dashboard for ICICI Bank, automating loan processing and reducing manual interventions by 30%.</li>
-                <li>Worked with Spring MVC and Oracle SQL to optimize backend performance.</li>
-            </ul>
-
-            <h3>Software Engineer | Hashir Labs</h3>
-            <ul>
-                <li>Built a dynamic UI for enquiry and quotation management in Angular, improving task tracking efficiency by 40%.</li>
-                <li>Reduced application load times by 30% through lazy loading and code optimization.</li>
+                <li><strong>XploRE:</strong> Automated interview management tool improving recruitment efficiency by 40%.</li>
+                <li><strong>ICICI Disbursement Hub:</strong> Streamlined loan processing, reducing manual interventions by 30%.</li>
+                <li><strong>Angular Enquiry UI:</strong> Enhanced task tracking efficiency by 40% with modernized UI components.</li>
             </ul>
         </div>
 
@@ -99,15 +91,6 @@
         </div>
 
         <div class="section">
-            <h2>📚 Certifications</h2>
-            <ul>
-                <li>Software Developer Trainee - LTIMindtree</li>
-                <li>The Complete 2024 Web Development Bootcamp (Udemy)</li>
-                <li>Android Developer Training (Appdid)</li>
-            </ul>
-        </div>
-
-        <div class="section">
             <h2>🔗 Let's Connect</h2>
             <ul>
                 <li><strong>GitHub:</strong> <a href="https://github.com/usamashaikh13">usamashaikh13</a></li>
@@ -115,12 +98,44 @@
                 <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/osama-shaikh-103b941a6/">Osama Shaikh</a></li>
             </ul>
         </div>
-
-        <div class="section">
-            <h2>💡 Fun Fact</h2>
-            <p>When I'm not coding, I enjoy exploring new technologies, participating in hackathons, and contributing to meaningful projects.</p>
-            <p>Feel free to explore my repositories and drop a ⭐ if you find something interesting!</p>
-        </div>
     </div>
+
+    <script>
+        // Typing animation
+        new Typed('#typed', {
+            strings: [
+                "Hi there 👋, I'm Usama Shaikh!",
+                "Welcome to my GitHub Profile!",
+                "Full Stack Developer | Open Source Contributor",
+                "Building scalable and efficient apps! 💻"
+            ],
+            typeSpeed: 50,
+            backSpeed: 25,
+            loop: true
+        });
+
+        // Skills chart
+        const ctx = document.getElementById('skillsChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'radar',
+            data: {
+                labels: ['JavaScript', 'TypeScript', 'React', 'Angular', 'Node.js', 'Spring Boot', 'MongoDB'],
+                datasets: [{
+                    label: 'Proficiency',
+                    data: [90, 85, 80, 85, 75, 70, 80],
+                    backgroundColor: 'rgba(52, 152, 219, 0.2)',
+                    borderColor: 'rgba(52, 152, 219, 1)',
+                    borderWidth: 2,
+                }]
+            },
+            options: {
+                scale: {
+                    ticks: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
 </body>
 </html>
